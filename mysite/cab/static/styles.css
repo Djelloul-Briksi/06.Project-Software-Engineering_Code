@@ -1,0 +1,29 @@
+h1 {
+    font-family:SpaceGrotesk-Light;
+    color:#4f0505;
+    background-color:powderblue;
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+#divVersion {
+  color:#10054f;
+  font-weight: 50;
+  font-size: 8px;
+}
+
+.parentBox {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    text-align: left;
+  }
+
+.childBox {
+    display: inline-block;
+    /*border: 1px solid rgb(5, 15, 93);*/
+    padding: 1rem 1rem;
+    vertical-align: left;
+  }

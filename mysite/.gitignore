@@ -1,0 +1,8 @@
+cab/__pycache__/
+cab/dbaccess/__pycache__/
+cab/migrations/__pycache__/
+mysite/__pycache__/
+logs/*
+tests/*shm
+tests/*wal
+tests/__pycache__/

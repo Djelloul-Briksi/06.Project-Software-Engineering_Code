@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  {% load static %}
+
+  <link rel="stylesheet" type='text/css' href="{% static 'styles.css' %}">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="{% static 'cplxtree.js' %}" defer></script>
+</head>
+
+<body onload="cplxtree()">
+
+  <div id="divClickTree" class="parentBox">
+    Click on a node to collapse or expand it<br/>
+    Hover and stay on a node to see some details
+  </div>
+
+  <div id="divCplxTree" class="parentBox">
+    <svg id="svgCplxTree" width="100%" height="100%"></svg>
+  </div>
+
+</body>
+</html>
